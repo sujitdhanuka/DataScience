@@ -1,11 +1,17 @@
 Package: SDAutoML
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Automates Machine Learning Algorithms
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Sujit Dhanuka
+Maintainer: The package maintainer <sujitdhanuka@gmail.com>
+Description:  SDAutoML can be used for automating the machine learning, 
+              which includes automatic training and tuning of many models.
+              It can be used for Binomial Classification, Regression and 
+              Multi-class classification.  SDAutoML interface is designed 
+              to have as few parameters as possible so that the user can just point
+              to their dataset, identify the response column, pass a list 
+              of Preprocessing steps from caret package, Model type.
+              
 License: What license is it under?
-Encoding: UTF-8
+Encoding: UTF-8 
 LazyData: true
